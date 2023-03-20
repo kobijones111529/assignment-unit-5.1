@@ -17,13 +17,15 @@ const me = {
 };
 console.log('A little about me:', me);
 
+
 /* 2. Accessing object properties.
   - Create a variable called fullName 
   - Use the firstName & lastName properties of the object you 
     created above to set its value. 
   - Console.log fullName
 */
-
+const fullName = `${me.firstName} ${me.lastName}`;
+console.log('My full name is:', fullName);
 
 
 /* 3. Nested arrays
